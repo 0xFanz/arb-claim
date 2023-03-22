@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    // modules
+    "resolveJsonModule": true,
+
+    // emit
+    "declaration": true,
+    "outDir": "./build",
+    "removeComments": true,
+    "sourceMap": true,
+    "preserveSymlinks": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*", "test/**/*", "examples/**/*", "scripts/**/*"],
+}

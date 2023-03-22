@@ -1,0 +1,16 @@
+{
+  "name": "arb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "claim": "ts-node scripts/claim"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "ethers": "5.7"
+  }
+}
